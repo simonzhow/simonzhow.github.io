@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <!-- Test to see if we can put typed js on top of the particles canvas -->
+    <section id="intro">
+      <canvas id="home-intro_particles" width="800" height="800">
+        Your Browser Don't Support Canvas, Please Download Chrome ^_^``
+      </canvas>
+      <div class="home-intro_typed">
+        <span class="home-intro_typed-static">Hello! My name is <strong>Simon</strong>, and I am a</span>
+        <span class="home-intro_typed-text"></span>
+      </div>
+
+
+
+      <!-- <div class="home-intro_center">Welcome to Simon's Webpage</div> -->
+
+    </section>
+
+  </body>
+
+  <section id="footer">
+  </section>
+
+  <footer>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/particles.js"></script>
+    <!-- <script>
+      // Start midnight
+      $(document).ready(function(){
+        // Change this to the correct selector for your nav.
+        $('nav.fixed').midnight();
+      });
+    </script> -->
+    <script src="js/javascript-packages/typed.min.js"></script>
+    <script>
+        const adjectivesArray = ["student at UCLA.", "web developer.", "designer.", "creator."];
+        //Cloud Function
+        $(document).ready(function() {
+            $(".home-intro_typed-text").typed({
+                strings: adjectivesArray,
+                // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+                stringsElement: null,
+                // typing speed
+                typeSpeed: 50,
+                // time before typing starts
+                startDelay: 0,
+                // backspacing speed
+                backSpeed: 45,
+                // time before backspacing
+                backDelay: 500,
+                // loop
+                loop: false,
+                // false = infinite
+                loopCount: false,
+                // show cursor
+                showCursor: true,
+                // character for cursor
+                cursorChar: "|",
+                // attribute to type (null == text)
+                attr: null,
+                // either html or text
+                contentType: 'html',
+                // call when done callback function
+                callback: function () {},
+                // starting callback function before each string
+                preStringTyped: function () {},
+                //callback for every typed string
+                onStringTyped: function () {},
+                // callback for reset
+                resetCallback: function () {}
+            });
+        });
+    </script>
+    <script src="js/javascript-packages/wow.min.js"></script>
+  </footer>
+
+</html>

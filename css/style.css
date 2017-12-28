@@ -1,0 +1,57 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+}
+#home-intro_particles {
+    background-color: black;
+    z-index: 0;
+}
+
+.home-intro_typed {
+  font-family: 'Roboto Mono';
+  position: absolute;
+  text-align: center;
+  bottom: 50%;
+  width: 100%;
+  z-index: 10;
+}
+
+.home-intro_typed-static {
+  display: block;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.home-intro_typed-text {
+  display: inline;
+  font-size: 20px;
+  color: white;
+
+}
+
+.typed-cursor {
+  opacity: 1;
+  color: white;
+  animation: blink 1s infinite;
+  font-size: 20px;
+}
+
+@keyframes blink {
+  0% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
