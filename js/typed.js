@@ -1,4 +1,4 @@
-const adjectivesArray = ["student at UCLA.", "web developer.", "designer.", "creator."];
+const adjectivesArray = ["box.", "surf.", "design.", "create."];
 //Cloud Function
 $(document).ready(function() {
     $(".home-intro_typed-text").typed({
@@ -6,11 +6,11 @@ $(document).ready(function() {
         // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
         stringsElement: null,
         // typing speed
-        typeSpeed: 50,
+        typeSpeed: 75,
         // time before typing starts
         startDelay: 0,
         // backspacing speed
-        backSpeed: 45,
+        backSpeed: 50,
         // time before backspacing
         backDelay: 500,
         // loop
