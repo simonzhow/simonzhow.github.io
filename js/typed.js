@@ -6,13 +6,13 @@ $(document).ready(function() {
         // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
         stringsElement: null,
         // typing speed
-        typeSpeed: 75,
+        typeSpeed: 60,
         // time before typing starts
         startDelay: 0,
         // backspacing speed
         backSpeed: 50,
         // time before backspacing
-        backDelay: 500,
+        backDelay: 700,
         // loop
         loop: false,
         // false = infinite
