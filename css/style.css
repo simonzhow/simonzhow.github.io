@@ -29,9 +29,15 @@ a {
 .home-intro {
   position: absolute;
   text-align: center;
-  bottom: 30%;
+  bottom: 50%;
   width: 100%;
   z-index: 10;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-intro {
+    bottom: 30%;
+  }
 }
 
 .home-intro_typed-static {
