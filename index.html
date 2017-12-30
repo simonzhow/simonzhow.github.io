@@ -3,19 +3,23 @@
 <html lang="en" >
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Welcome</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="shortcut icon" type="image/png" href="static/images/favicon.png"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 
   </head>
 
   <body>
     <section id="home">
-      <canvas id="home_particles" width="800" height="800">
-        Your Browser Don't Support Canvas, Please Download Chrome ^_^``
-      </canvas>
+      <div class="home-particles">
+        <canvas id="particles" height="800" width="800">
+          Your Browser Don't Support Canvas, Please Download Chrome ^_^``
+        </canvas>
+      </div>
+
 
       <div class="home-intro">
         <span class="home-intro_typed-static">Hello! My name is <strong>Simon</strong>, and I love to</span>
@@ -48,8 +52,12 @@
 
     <section id="projects">
       <!-- TODO: Add project info -->
-      <span class="dev">Projects Coming Soon</span>
+      <span class="dev">Projects Coming Soon.</span>
     </section>
+
+    <!-- <section id="contact">
+      TODO: Add contact info using formspring
+    </section> -->
 </body>
 
   <footer>
