@@ -191,7 +191,7 @@ function getDisOf(b1, b2){
     return Math.sqrt(delta_x*delta_x + delta_y*delta_y);
 }
 
-// add balls if there a little balls
+// add balls if there isn't a lot of balls
 function addBallIfy(){
     if(balls.length < 20){
         balls.push(getRandomBall());

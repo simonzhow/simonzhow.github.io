@@ -150,13 +150,6 @@ section {
   background-image: url("../static/images/bio.jpg");
 }
 
-.bio_picture:hover {
-  /* may not need */
-  transform: scale(1.04);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.75);
-  transition: all .3s ease-in-out;
-}
-
 .link {
   color: #0b7;
 }
@@ -193,15 +186,73 @@ section {
 /* projects */
 
 #projects {
-  display: flex;
   background-color: #222831;
+}
+
+.projects_header {
   text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  margin-top: 60px;
+}
+
+.projects_container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+  justify-content: center;
   align-items: center;
 }
 
-.dev {
-  margin: 0 auto;
+.projects_item {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px;
+  overflow: hidden;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: all .3s ease-in-out;
+  background-color: grey;
+  /* background-image: url("../static/images/bio.jpg"); */
+}
+
+.projects_item:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.75);
+  transition: all .3s ease-in-out;
+}
+
+.project_title {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
   color: white;
-  font-size: 30px;
   font-weight: bold;
+  font-size: 24px;
+}
+
+/* Contact */
+
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#contact-input {
+  margin-bottom: 10px;
+}
+
+input[type="email"]:focus {
+  border-color: blue;
+}
+
+textarea:focus {
+  border-color: blue;
 }
