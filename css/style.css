@@ -51,6 +51,11 @@ section {
   .home-intro {
     width: 100%;
   }
+
+  .home-intro_links-container {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .home-intro_typed-static {
