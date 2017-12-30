@@ -6,39 +6,51 @@
     <meta name="viewport" content="width=device-width" />
     <title>Welcome</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 
   </head>
 
   <body>
-    <section id="intro">
-      <canvas id="home-intro_particles" width="800" height="800">
+    <section id="home">
+      <canvas id="home_particles" width="800" height="800">
         Your Browser Don't Support Canvas, Please Download Chrome ^_^``
       </canvas>
+
       <div class="home-intro">
-        <span class="home-intro_typed-static">Hello! My name is <strong>Simon</strong>, and I like to</span>
+        <span class="home-intro_typed-static">Hello! My name is <strong>Simon</strong>, and I love to</span>
         <span class="home-intro_typed-text"></span>
 
         <div class="home-intro_links-container">
           <!-- <div class="box home-intro_links-item">Learn More</div> -->
+          <a href="#bio" class="scrolly bio"><div class="box home-intro_links-item">About Me</div>
           <a target="_blank" href="resume.pdf"><div class="box home-intro_links-item">View Resume</div></a>
           <a target="_blank" href="mailto:simonjzhou@gmail.com"><div class="box home-intro_links-item">Contact</div></a>
         </div>
 
-
         <div class="home-intro_links-container">
           <div class="box home-intro_links-item">More Coming Soon...</div>
         </div>
-
-
       </div>
-
     </section>
 
-  </body>
+    <section id="bio">
+      <div class="bio_container">
+        <div class="bio_picture wow fadeIn" data-wow-delay=".5s"></div>
+        <div class="bio_description wow fadeIn" data-wow-delay="1s">Welcome! My name is Simon Zhou, and I am a third-year Computer Science major at UCLA.
+          I serve as the Web Director on both the <a class="link" target="_blank" href="http://uclacsc.org/staff/">USAC Community Service Commission</a>
+          and <a class="link" target="_blank" href="http://mentorship.seas.ucla.edu">mentorSEAS</a> and am the Undergraduate Student Representative on the
+          <a class="link" target="_blank" href="http://www.itpb.ucla.edu/people/">Information Technology Planning Board</a> in the Office of Information Technology at UCLA.
+          I am mainly passionate about web development and creating interactive user interfaces.
+        </div>
+      </div>
+    </section>
 
-  <section id="footer">
-  </section>
+    <section id="projects">
+      <!-- TODO: Add project info -->
+      <span class="dev">Projects Coming Soon</span>
+    </section>
+</body>
 
   <footer>
     <script src="js/javascript-packages/jquery-3.2.1.min.js"></script>
@@ -54,6 +66,9 @@
     <script src="js/javascript-packages/typed.min.js"></script>
     <script src="js/typed.js"></script>
     <script src="js/javascript-packages/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </footer>
 
 </html>

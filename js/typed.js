@@ -1,4 +1,4 @@
-const adjectivesArray = ["box.", "surf.", "design.", "create."];
+const adjectivesArray = ["box.", "snowboard.", "design.", "create."];
 //Cloud Function
 $(document).ready(function() {
     $(".home-intro_typed-text").typed({

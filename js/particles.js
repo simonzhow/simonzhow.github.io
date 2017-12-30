@@ -1,4 +1,4 @@
-var canvas = document.getElementById('home-intro_particles'),
+var canvas = document.getElementById('home_particles'),
    can_w = parseInt(canvas.getAttribute('width')),
    can_h = parseInt(canvas.getAttribute('height')),
    ctx = canvas.getContext('2d');
