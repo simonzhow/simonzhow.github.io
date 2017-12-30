@@ -34,12 +34,6 @@ a {
   z-index: 10;
 }
 
-@media only screen and (max-width: 768px) {
-  .home-intro {
-    bottom: 50%;
-  }
-}
-
 .home-intro_typed-static {
   display: block;
   color: white;
