@@ -207,27 +207,30 @@ section {
   align-items: center;
 }
 
-.ocp {
-  background-image: url("../static/images/ocp.jpg");
+.np {
+  background-image: url("../static/images/ny.jpg");
 }
 
-.nomad {
-  background-image: url("../static/images/nomad.jpg");
+.ocp {
+  background-image: url("../static/images/ocp.jpg");
 }
 
 .mentorseas {
   background-image: url("../static/images/mentorseas.jpg");
 }
 
+.cl {
+  background-image: url("../static/images/cl.jpg");
+}
 
 
 .projects_item {
   position: relative;
-  width: 350px;
-  height: 400px;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-top: 20px;
+  width: 275px;
+  height: 275px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
   background-position: center center;
   background-size: cover;
   border-radius: 20px;
