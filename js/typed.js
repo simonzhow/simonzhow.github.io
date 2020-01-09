@@ -1,7 +1,7 @@
-const adjectivesArray = ["eat.", "box.", "snowboard.", "design."];
+const adjectivesArray = ['eat.', 'box.', 'snowboard.', 'code.'];
 //Cloud Function
 $(document).ready(function() {
-  $(".home-intro_typed-text").typed({
+  $('.home-intro_typed-text').typed({
     strings: adjectivesArray,
     // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
     stringsElement: null,
@@ -20,11 +20,11 @@ $(document).ready(function() {
     // show cursor
     showCursor: true,
     // character for cursor
-    cursorChar: "|",
+    cursorChar: '|',
     // attribute to type (null == text)
     attr: null,
     // either html or text
-    contentType: "html",
+    contentType: 'html',
     // call when done callback function
     callback: function() {},
     // starting callback function before each string
