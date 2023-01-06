@@ -11,4 +11,4 @@ Without further ado, here we go!
 
 ---
 
-Always looking to riff. Reach me at simon@unusual.vc
+Always looking to riff. Reach me at simon@unusual.vc.
