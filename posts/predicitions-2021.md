@@ -1,9 +1,7 @@
 ---
 title: 2021 Predictions
-publish_date: 2023-05-29
+publish_date: 2021-05-29
 ---
-
-Note: This post was originally published in May, 2021.
 
 # Introduction
 
