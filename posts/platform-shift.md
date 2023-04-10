@@ -1,5 +1,5 @@
 ---
-title: Platform shifts and the opportunity to build information asymmetry
+title: Platform shifts and building information asymmetry
 publish_date: 2023-04-09
 ---
 
